@@ -5,8 +5,11 @@ public class Chap04_Exercise01
 	public static void main(String[] args)
 	{
 		
-		// String myPicture = FileChooser.pickAFile();
-		String myPicture = "/home/notroot/Java/JavaII/AdditionalSoftware/mediasources/arch.jpg";
+		//String myPicture = FileChooser.pickAFile();
+		//System.out.println(myPicture);
+		
+		
+		String myPicture = "/Users/mfloerchinger/Documents/z.JavaProgramming/UCSD/Java II/CourseCD/mediasources/arch.jpg";
 		
 		// create picture object
 		Picture picObject = new Picture(myPicture);
@@ -36,6 +39,7 @@ public class Chap04_Exercise01
 		}
 				
 		*/
+		
 		
 		// Version 2: prints out the color array for the entire picture file
 		for ( Pixel pixelObj : pixelArray )
